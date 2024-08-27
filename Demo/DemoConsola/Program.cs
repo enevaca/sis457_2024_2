@@ -1,5 +1,7 @@
 ﻿
 // Variables
+using DemoConsola;
+
 var variable = "Cualquier valor";
 bool esActivo = false;
 int entero = 4;
@@ -94,16 +96,53 @@ int suma(int numero1, int numero2) => numero1 + numero2;
 Console.WriteLine(suma(7, 6));
 
 // Factorial
-Console.Write("Introduzca un número: ");
-int numero = Convert.ToInt32(Console.ReadLine());
-int factorial = 1;
-if (Math.Abs(numero) > 1)
-{
-    for (int i = 1; i <= Math.Abs(numero); i++) factorial *= i;
-    if (numero < 0) factorial *= -1;
-}
-Console.WriteLine($"El factorial de {numero} es: {factorial}");
+//Console.Write("Introduzca un número: ");
+//int numero = Convert.ToInt32(Console.ReadLine());
+//int factorial = 1;
+//if (Math.Abs(numero) > 1)
+//{
+//    for (int i = 1; i <= Math.Abs(numero); i++) factorial *= i;
+//    if (numero < 0) factorial *= -1;
+//}
+//Console.WriteLine($"El factorial de {numero} es: {factorial}");
 // Número Primo (Tarea)
 
 
-// POO -> próximamente
+// POO
+Persona persona = new Persona();
+persona.cedulaIdentidad = "123456";
+persona.nombres = "Juan";
+persona.primerApellido = "Pérez";
+persona.segundoApellido = "López";
+persona.fechaNacimiento = DateTime.Parse("2000-08-25");
+persona.celular = 74747474;
+persona.saludar();
+Console.WriteLine($"y mi edad es {persona.edad()} años");
+
+Estudiante estudiante = new Estudiante();
+estudiante.cedulaIdentidad = "321654";
+estudiante.nombres = "Cristian";
+estudiante.primerApellido = "Anave";
+estudiante.segundoApellido = "Yampa";
+estudiante.carnetUniversitario = "26-3217";
+estudiante.saludar();
+
+int cantidadEstudiantes = 2;
+List<Estudiante> estudiantes = new List<Estudiante>();
+for (int i = 0; i < cantidadEstudiantes; i++)
+{
+    var itemEstudiante = new Estudiante();
+    Console.WriteLine($"\n******* Datos del Estudiante {i + 1} *******");
+    Console.Write("Instroduzca el Carnet Universitario: ");
+    itemEstudiante.carnetUniversitario = Console.ReadLine();
+
+    Console.Write("Instroduzca los Nombres: ");
+    itemEstudiante.nombres = Console.ReadLine();
+
+    Console.Write("Instroduzca el Primer Apellido: ");
+    itemEstudiante.primerApellido = Console.ReadLine();
+
+    estudiantes.Add(itemEstudiante);
+}
+
+foreach (var item in estudiantes) item.saludar();
