@@ -7,6 +7,30 @@
       "RelativeMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_2\\demo\\democonsolaavanzado\\democonsolaavanzado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\democonsolaavanzado.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2C9B50-FC34-4A88-BD9F-FB3ECB603AA0}|DemoBiblioteca\\DemoBiblioteca.csproj|d:\\usfx\\sis457\\sis457_2024_2\\demo\\demobiblioteca\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A2C9B50-FC34-4A88-BD9F-FB3ECB603AA0}|DemoBiblioteca\\DemoBiblioteca.csproj|solutionrelative:demobiblioteca\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_2\\demo\\democonsolaavanzado\\delegado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\delegado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_2\\demo\\democonsolaavanzado\\generico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\generico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_2\\demo\\democonsolaavanzado\\interfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\interfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_2\\demo\\democonsolaavanzado\\abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|d:\\usfx\\sis457\\sis457_2024_2\\demo\\democonsolaavanzado\\inmutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E70A96D-31A1-40BB-8827-7691A7D294ED}|DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj|solutionrelative:democonsolaavanzado\\inmutable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,11 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DemoConsolaAvanzado",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj",
+              "RelativeToolTip": "DemoConsolaAvanzado\\DemoConsolaAvanzado.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-31T13:49:03.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoBiblioteca\\Class1.cs",
+              "RelativeDocumentMoniker": "DemoBiblioteca\\Class1.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoBiblioteca\\Class1.cs",
+              "RelativeToolTip": "DemoBiblioteca\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:53:28.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Generico.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Generico.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Generico.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Generico.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Generico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA0wAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:21:27.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Interfaz.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Interfaz.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Interfaz.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Interfaz.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Interfaz.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:09:28.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Abstract.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Abstract.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Abstract.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Abstract.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Abstract.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA0wCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T13:49:53.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Inmutable.cs",
               "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Inmutable.cs",
               "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Inmutable.cs",
@@ -30,8 +119,7 @@
               "RelativeToolTip": "DemoConsolaAvanzado\\Inmutable.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAUwBIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T00:14:56.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T00:14:56.531Z"
             },
             {
               "$type": "Document",
@@ -39,11 +127,24 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Program.cs",
               "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Program.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Program.cs",
-              "RelativeToolTip": "DemoConsolaAvanzado\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Program.cs*",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T00:12:31.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delegado.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Delegado.cs",
+              "RelativeDocumentMoniker": "DemoConsolaAvanzado\\Delegado.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Demo\\DemoConsolaAvanzado\\Delegado.cs",
+              "RelativeToolTip": "DemoConsolaAvanzado\\Delegado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:32:28.347Z",
               "EditorCaption": ""
             }
           ]
