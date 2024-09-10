@@ -1,4 +1,5 @@
-﻿CREATE DATABASE Minerva;
+﻿-- DDL
+CREATE DATABASE Minerva;
 GO
 USE [master]
 GO
@@ -75,3 +76,43 @@ CREATE TABLE CompraDetalle (
 ALTER TABLE Producto ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
 ALTER TABLE Producto ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
 ALTER TABLE Producto ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
+
+ALTER TABLE Proveedor ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
+ALTER TABLE Proveedor ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
+ALTER TABLE Proveedor ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
+
+ALTER TABLE Empleado ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
+ALTER TABLE Empleado ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
+ALTER TABLE Empleado ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
+
+ALTER TABLE Usuario ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
+ALTER TABLE Usuario ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
+ALTER TABLE Usuario ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
+
+ALTER TABLE Compra ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
+ALTER TABLE Compra ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
+ALTER TABLE Compra ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
+
+ALTER TABLE CompraDetalle ADD usuarioRegistro VARCHAR(50) NOT NULL DEFAULT SUSER_NAME();
+ALTER TABLE CompraDetalle ADD fechaRegistro DATETIME NOT NULL DEFAULT GETDATE();
+ALTER TABLE CompraDetalle ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminado, 0: Inactivo, 1: Activo
+GO
+ALTER PROC paProductoListar @parametro VARCHAR(100)
+AS
+  SELECT * FROM Producto
+  WHERE estado<>-1 AND descripcion LIKE '%'+REPLACE(@parametro, ' ', '%')+'%';
+
+EXEC paProductoListar 'bond carta';
+
+-- DML
+INSERT INTO Producto(codigo, descripcion, unidadMedida, saldo, precioVenta)
+VALUES ('PKD0056', 'Bolígrafo Pilot Color Negro', 'Caja', 0, 50);
+
+INSERT INTO Producto(codigo, descripcion, unidadMedida, saldo, precioVenta)
+VALUES ('HBC6564', 'Papel Bond Tamaño Carta', 'Paquete', 0, 35);
+
+INSERT INTO Producto(codigo, descripcion, unidadMedida, saldo, precioVenta)
+VALUES ('HBO0456', 'Papel Bond Tamaño Oficio', 'Paquete', 0, 40);
+
+SELECT * FROM Producto WHERE descripcion LIKE '%bond%carta%'; -- bond carta
+
