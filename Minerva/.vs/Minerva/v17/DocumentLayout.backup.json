@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9A04E17-8C12-4B8D-90E2-1AEB933A7B62}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\cpminerva\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A9A04E17-8C12-4B8D-90E2-1AEB933A7B62}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A9A04E17-8C12-4B8D-90E2-1AEB933A7B62}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9A04E17-8C12-4B8D-90E2-1AEB933A7B62}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A04E17-8C12-4B8D-90E2-1AEB933A7B62}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9A04E17-8C12-4B8D-90E2-1AEB933A7B62}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD0FCD9-A9F0-4289-B478-EF75A008CB5B}|CadMinerva\\CadMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\cadminerva\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DBD0FCD9-A9F0-4289-B478-EF75A008CB5B}|CadMinerva\\CadMinerva.csproj|solutionrelative:cadminerva\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9A04E17-8C12-4B8D-90E2-1AEB933A7B62}|CpMinerva\\CpMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\cpminerva\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A9A04E17-8C12-4B8D-90E2-1AEB933A7B62}|CpMinerva\\CpMinerva.csproj|solutionrelative:cpminerva\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD0FCD9-A9F0-4289-B478-EF75A008CB5B}|CadMinerva\\CadMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\cadminerva\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{DBD0FCD9-A9F0-4289-B478-EF75A008CB5B}|CadMinerva\\CadMinerva.csproj|solutionrelative:cadminerva\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,16 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CpMinerva\\App.config",
+              "RelativeDocumentMoniker": "CpMinerva\\App.config",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CpMinerva\\App.config",
+              "RelativeToolTip": "CpMinerva\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-24T00:36:28.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.Config",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CadMinerva\\App.Config",
+              "RelativeDocumentMoniker": "CadMinerva\\App.Config",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CadMinerva\\App.Config",
+              "RelativeToolTip": "CadMinerva\\App.Config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-24T00:34:09.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CpMinerva\\Form1.cs",
-              "RelativeDocumentMoniker": "CpMinerva\\Form1.cs",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CpMinerva\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CpMinerva\\Form1.cs [Dise\u00F1o]",
+              "Title": "FrmProducto.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CpMinerva\\FrmProducto.cs",
+              "RelativeDocumentMoniker": "CpMinerva\\FrmProducto.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CpMinerva\\FrmProducto.cs",
+              "RelativeToolTip": "CpMinerva\\FrmProducto.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:12:38.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CadMinerva\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadMinerva\\Modelo.edmx",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CadMinerva\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadMinerva\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-09-23T23:50:32.764Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CpMinerva\\FrmProducto.cs",
+              "RelativeDocumentMoniker": "CpMinerva\\FrmProducto.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\CpMinerva\\FrmProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpMinerva\\FrmProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T00:39:26.183Z",
               "EditorCaption": " [Dise\u00F1o]"
