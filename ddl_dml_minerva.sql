@@ -100,7 +100,8 @@ GO
 ALTER PROC paProductoListar @parametro VARCHAR(100)
 AS
   SELECT * FROM Producto
-  WHERE estado<>-1 AND descripcion LIKE '%'+REPLACE(@parametro, ' ', '%')+'%';
+  WHERE estado<>-1 AND descripcion LIKE '%'+REPLACE(@parametro, ' ', '%')+'%'
+  ORDER BY descripcion;
 
 EXEC paProductoListar 'bond carta';
 
