@@ -115,5 +115,13 @@ VALUES ('HBC6564', 'Papel Bond Tamaño Carta', 'Paquete', 0, 35);
 INSERT INTO Producto(codigo, descripcion, unidadMedida, saldo, precioVenta)
 VALUES ('HBO0456', 'Papel Bond Tamaño Oficio', 'Paquete', 0, 40);
 
+INSERT INTO Empleado(cedulaIdentidad, nombres, primerApellido, segundoApellido, direccion, celular, cargo)
+VALUES ('123456', 'Juan', 'Pérez', 'López', 'Calle Loa 50', 76767676, 'Cajero');
+
+INSERT INTO Usuario(idEmpleado, usuario, clave)
+VALUES (1, 'jperez', 'i0hcoO/nssY6WOs9pOp5Xw==');
+
+SELECT * FROM Empleado;
+SELECT * FROM Usuario;
 SELECT * FROM Producto WHERE descripcion LIKE '%bond%carta%'; -- bond carta
 

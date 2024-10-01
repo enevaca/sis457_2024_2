@@ -19,3 +19,5 @@ D:\usfx\SIS457\sis457_2024_2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.Up2Dat
 D:\usfx\SIS457\sis457_2024_2\Minerva\CpMinerva\obj\Debug\CpMinerva.exe
 D:\usfx\SIS457\sis457_2024_2\Minerva\CpMinerva\obj\Debug\CpMinerva.pdb
 D:\usfx\SIS457\sis457_2024_2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmProducto.resources
+D:\usfx\SIS457\sis457_2024_2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmAutenticacion.resources
+D:\usfx\SIS457\sis457_2024_2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmPrincipal.resources
