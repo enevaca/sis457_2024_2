@@ -19,11 +19,6 @@ namespace CpMinerva
             this.frmAutenticacion = frmAutenticacion;
         }
 
-        private void btnProductos_Click(object sender, EventArgs e)
-        {
-            new FrmProducto().ShowDialog();
-        }
-
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
 
@@ -32,6 +27,11 @@ namespace CpMinerva
         private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
             frmAutenticacion.Visible = true;
+        }
+
+        private void btnCaProductos_Click(object sender, EventArgs e)
+        {
+            new FrmProducto().ShowDialog();
         }
     }
 }
