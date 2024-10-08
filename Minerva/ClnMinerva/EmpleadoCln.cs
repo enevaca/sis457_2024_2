@@ -20,6 +20,9 @@ namespace ClnMinerva
                 if (usuario != null)
                 {
                     usuario.idEmpleado = empleado.id;
+                    usuario.usuarioRegistro = empleado.usuarioRegistro;
+                    usuario.fechaRegistro = empleado.fechaRegistro;
+                    usuario.estado = empleado.estado;
                     context.Usuario.Add(usuario);
                     context.SaveChanges();
                 }

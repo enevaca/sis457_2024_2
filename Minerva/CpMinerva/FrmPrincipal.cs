@@ -33,5 +33,10 @@ namespace CpMinerva
         {
             new FrmProducto().ShowDialog();
         }
+
+        private void btnAdEmpleados_Click(object sender, EventArgs e)
+        {
+            new FrmEmpleado().ShowDialog();
+        }
     }
 }
