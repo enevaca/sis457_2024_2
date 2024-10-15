@@ -1,11 +1,11 @@
-﻿@model IEnumerable<WebMinerva.Models.Producto>
+﻿@model IEnumerable<WebMinerva.Models.Proveedor>
 
 @{
-    ViewData["Title"] = "Productos";
+    ViewData["Title"] = "Proveedores";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Productos</h1>
+<h1>Proveedores</h1>
 
 <p>
     <a asp-action="Create"><i class="fa fa-plus"></i> Crear Nuevo</a>
@@ -13,11 +13,11 @@
 <table class="table">
     <thead>
         <tr>
-            <th>Código</th>
-            <th>Descripción</th>
-            <th>Unidad de Medida</th>
-            <th>Saldo</th>
-            <th>Precio de Venta</th>
+            <th>NIT</th>
+            <th>Razón Social</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>Representante</th>
             <th>Usuario Registro</th>
             <th>Fecha Registro</th>
             <th></th>
@@ -27,19 +27,19 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Codigo)
+                @Html.DisplayFor(modelItem => item.Nit)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
+                @Html.DisplayFor(modelItem => item.RazonSocial)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.UnidadMedida)
+                @Html.DisplayFor(modelItem => item.Direccion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Saldo)
+                @Html.DisplayFor(modelItem => item.Telefono)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PrecioVenta)
+                @Html.DisplayFor(modelItem => item.Representante)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.UsuarioRegistro)
