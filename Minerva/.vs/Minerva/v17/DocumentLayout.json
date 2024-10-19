@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\views\\proveedores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\proveedores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\views\\proveedores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\proveedores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\proveedores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\views\\shared\\_logoutpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\shared\\_logoutpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|d:\\usfx\\sis457\\sis457_2024_2\\minerva\\webminerva\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9BFF435-CB5A-4F18-9BC1-1534521AD0BE}|WebMinerva\\WebMinerva.csproj|solutionrelative:webminerva\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +42,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "WebMinerva\\Controllers\\ProveedoresController.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "WebMinerva\\Controllers\\ProveedoresController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAI0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:02:56.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Productos\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Productos\\Create.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Productos\\Create.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Productos\\Create.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADQAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T01:04:32.095Z",
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "WebMinerva\\Controllers\\ProductosController.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "WebMinerva\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAJQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:02:54.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Program.cs",
+              "RelativeDocumentMoniker": "WebMinerva\\Program.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Program.cs",
+              "RelativeToolTip": "WebMinerva\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:54:05.245Z",
               "EditorCaption": ""
             },
             {
@@ -53,48 +91,61 @@
               "RelativeDocumentMoniker": "WebMinerva\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebMinerva\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACMAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T00:32:33.59Z",
+              "WhenOpened": "2024-10-19T13:51:57.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LogoutPartial.cshtml",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Shared\\_LogoutPartial.cshtml",
+              "RelativeDocumentMoniker": "WebMinerva\\Views\\Shared\\_LogoutPartial.cshtml",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Shared\\_LogoutPartial.cshtml",
+              "RelativeToolTip": "WebMinerva\\Views\\Shared\\_LogoutPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T13:45:54.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebMinerva\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebMinerva\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T13:41:15.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Proveedores\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Proveedores\\Edit.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Proveedores\\Edit.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Proveedores\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T00:30:17.553Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebMinerva\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebMinerva\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:28:26.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Proveedores\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Proveedores\\Create.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Proveedores\\Create.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Proveedores\\Create.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T00:29:47.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Proveedores\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebMinerva\\Views\\Proveedores\\Index.cshtml",
-              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Views\\Proveedores\\Index.cshtml",
-              "RelativeToolTip": "WebMinerva\\Views\\Proveedores\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T00:27:08.156Z",
+              "DocumentIndex": 6,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "WebMinerva\\Models\\AccountViewModels.cs",
+              "ToolTip": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "WebMinerva\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:25:10.299Z",
               "EditorCaption": ""
             }
           ]

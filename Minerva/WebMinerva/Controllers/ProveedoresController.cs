@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ using WebMinerva.Models;
 
 namespace WebMinerva.Controllers
 {
+    [Authorize]
     public class ProveedoresController : Controller
     {
         private readonly MinervaContext _context;
@@ -57,7 +59,7 @@ namespace WebMinerva.Controllers
         {
             if (!string.IsNullOrEmpty(proveedor.RazonSocial))
             {
-                proveedor.UsuarioRegistro = "sis457";
+                proveedor.UsuarioRegistro = User.Identity.Name;
                 proveedor.FechaRegistro = DateTime.Now;
                 proveedor.Estado = 1;
                 _context.Add(proveedor);
@@ -144,7 +146,7 @@ namespace WebMinerva.Controllers
             var proveedor = await _context.Proveedors.FindAsync(id);
             if (proveedor != null)
             {
-                proveedor.UsuarioRegistro = "sis457";
+                proveedor.UsuarioRegistro = User.Identity.Name;
                 proveedor.Estado = -1;
                 //_context.Proveedors.Remove(proveedor);
             }

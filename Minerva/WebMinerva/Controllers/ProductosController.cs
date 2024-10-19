@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ using WebMinerva.Models;
 
 namespace WebMinerva.Controllers
 {
+    [Authorize]
     public class ProductosController : Controller
     {
         private readonly MinervaContext _context;
@@ -57,7 +59,7 @@ namespace WebMinerva.Controllers
         {
             if (!string.IsNullOrEmpty(producto.Codigo) && !string.IsNullOrEmpty(producto.Descripcion))
             {
-                producto.UsuarioRegistro = "sis457";
+                producto.UsuarioRegistro = User.Identity.Name;
                 producto.FechaRegistro = DateTime.Now;
                 producto.Estado = 1;
                 _context.Add(producto);
@@ -144,7 +146,7 @@ namespace WebMinerva.Controllers
             var producto = await _context.Productos.FindAsync(id);
             if (producto != null)
             {
-                producto.UsuarioRegistro = "sis457";
+                producto.UsuarioRegistro = User.Identity.Name;
                 producto.Estado = -1;
                 //_context.Productos.Remove(producto);
             }
