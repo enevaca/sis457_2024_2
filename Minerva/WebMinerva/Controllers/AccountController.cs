@@ -59,7 +59,7 @@ namespace WebMinerva.Controllers
                 var authProperties = new AuthenticationProperties
                 {
                     AllowRefresh = true,
-                    ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(1),
+                    ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(15),
                     IsPersistent = model.recordarme
                 };
 

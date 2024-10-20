@@ -10,7 +10,7 @@
 <p>
     <a asp-action="Create"><i class="fa fa-plus"></i> Crear Nuevo</a>
 </p>
-<table class="table">
+<table>
     <thead>
         <tr>
             <th>NIT</th>
@@ -24,35 +24,36 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nit)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RazonSocial)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Direccion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefono)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Representante)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UsuarioRegistro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaRegistro)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id" title="Editar"><i class="fa fa-edit"></i></a> |
-                <a asp-action="Details" asp-route-id="@item.Id" title="Detalle"><i class="fa fa-list"></i></a> |
-                <a asp-action="Delete" asp-route-id="@item.Id" title="Eliminar"><i class="fa fa-trash"></i></a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RazonSocial)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Representante)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UsuarioRegistro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaRegistro)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" title="Editar"><i class="fa fa-edit"></i></a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" title="Detalle"><i class="fa fa-list"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" title="Eliminar"><i class="fa fa-trash"></i></a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
