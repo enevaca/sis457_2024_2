@@ -1,0 +1,83 @@
+﻿@model IEnumerable<WebMinerva.Models.Compra>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Transaccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdProveedorNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Transaccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fecha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdProveedorNavigation.RazonSocial)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <button class="btn btn-secondary btn-sm" onclick="toggleDetails(@item.Id)">Ver Detalles</button>
+                </td>
+            </tr>
+            <tr id="details-@item.Id" class="d-none">
+                <td colspan="4">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio Unitario</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var detalle in item.CompraDetalles)
+                            {
+                                <tr>
+                                    <td>@detalle.IdProductoNavigation.Descripcion</td>
+                                    <td>@detalle.Cantidad</td>
+                                    <td>@detalle.PrecioUnitario</td>
+                                    <td>@detalle.Total</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script>
+    function toggleDetails(id) {
+        const row = document.getElementById(`details-${id}`);
+        row.classList.toggle('d-none');
+    }
+</script>

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebMinerva.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebMinerva.bundle.scp.css"
+      "PackagePath": "staticwebassets\\WebMinerva.uxh62tunvd.bundle.scp.css"
     },
     {
       "Id": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\wwwroot\\css\\ajax-loader.gif",
@@ -503,6 +503,10 @@
     {
       "Id": "D:\\usfx\\SIS457\\sis457_2024_2\\Minerva\\WebMinerva\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebMinerva.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebMinerva.Microsoft.AspNetCore.StaticWebAssets.props",

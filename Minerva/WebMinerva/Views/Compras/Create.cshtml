@@ -1,0 +1,118 @@
+﻿@model WebMinerva.Models.Compra
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdProveedor" class="control-label"></label>
+                <select asp-for="IdProveedor" class="form-control" asp-items="ViewBag.IdProveedor"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Transaccion" class="control-label"></label>
+                <input asp-for="Transaccion" class="form-control" />
+                <span asp-validation-for="Transaccion" class="text-danger"></span>
+            </div>
+
+
+            <h4>Detalles de la Compra</h4>
+            <table class="table" id="detalleTable">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio Unitario</th>
+                        <th>Total</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <select name="CompraDetalles[0].IdProducto" class="form-select">
+                                @foreach (var producto in ViewBag.Productos)
+                                {
+                                    <option value="@producto.Id">@producto.Descripcion</option>
+                                }
+                            </select>
+                        </td>
+                        <td>
+                            <input type="number" name="CompraDetalles[0].Cantidad" class="form-control cantidad" min="1" oninput="calcularTotal(this)" />
+                        </td>
+                        <td>
+                            <input type="number" name="CompraDetalles[0].PrecioUnitario" class="form-control precio" min="0.01" step="0.01" oninput="calcularTotal(this)" />
+                        </td>
+                        <td>
+                            <input type="number" name="CompraDetalles[0].Total" class="form-control total" readonly />
+                        </td>
+                        <td>
+                            <span class="text-danger" onclick="removeRow(this)"><i class="fa fa-trash"></i></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-secondary" onclick="addRow()">Agregar Detalle</button>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script>
+    let detalleIndex = 1;
+
+    function addRow() {
+        const table = document.getElementById('detalleTable').getElementsByTagName('tbody')[0];
+        const newRow = `
+            <tr>
+                <td>
+                    <select name="CompraDetalles[${detalleIndex}].IdProducto" class="form-select">
+                    @foreach (var producto in ViewBag.Productos)
+                    {
+                        <option value="@producto.Id">@producto.Descripcion</option>
+                    }
+                    </select>
+                </td>
+                <td>
+                    <input type="number" name="CompraDetalles[${detalleIndex}].Cantidad" class="form-control cantidad" min="1" oninput="calcularTotal(this)" />
+                </td>
+                <td>
+                    <input type="number" name="CompraDetalles[${detalleIndex}].PrecioUnitario" class="form-control precio" min="0.01" step="0.01" oninput="calcularTotal(this)" />
+                </td>
+                <td>
+                    <input type="number" name="CompraDetalles[${detalleIndex}].Total" class="form-control total" readonly />
+                </td>
+                <td>
+                    <span class="text-danger" onclick="removeRow(this)"><i class="fa fa-trash"></i></span>
+                </td>
+            </tr>`;
+        table.insertAdjacentHTML('beforeend', newRow);
+        detalleIndex++;
+    }
+
+    function removeRow(button) {
+        button.parentElement.parentElement.remove();
+    }
+
+    function calcularTotal(element) {
+        const row = element.closest('tr');
+        const cantidad = parseFloat(row.querySelector('.cantidad').value) || 0;
+        const precio = parseFloat(row.querySelector('.precio').value) || 0;
+        const total = cantidad * precio;
+        row.querySelector('.total').value = total;
+    }
+</script>
